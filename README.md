@@ -9,13 +9,15 @@ Answers to homework questions
  - On top of the hardware abstraction there are C/C++ libraries to provide higher level APIs to the hardware on the device.
  - On top of all this comes Java API Framework to create apps which can work together with Hardware Abstraction Layer and native libraries to cerate functionality.
  - At the highest level we have the apps themselves which are already build on Java. For example: phone, email etc.
+ 
+ The rearchitecture for android 8.0 included creating an interface layer between the Android OS and device hardware apis so that the manufacturers did not have to create new version of their software with every update of android OS.
 
 2. Android components (Explain the use of each)
 
 - Activities - Activites have views to display the GUI interface of the app to the user.
 - Broadcast/Receivers - These are used to send or receive intents throughout the android infrastructure to do certain intercations with other apps etc.
 - Services - Services are long term background processes running on the device.
-- Content Providers - These provide data to your app. As well as save/provide your app's data.
+- Content Providers - These provide data to your app from other apps or local data storages. As well as save/provide your app's data.
 
 3. Lint 
 
