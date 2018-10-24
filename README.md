@@ -4,11 +4,11 @@ Answers to homework questions
 
 1. Android Platform layers (Explain the re architecture for Android 8.0)
 
-At the lowest level Android runs on linux operating system which provides all the drivers, kernels to control the hardware.
-On top of that we have hardware abstraction layer to provide convenient access to hardware api.
-On top of the hardware abstraction there are C/C++ libraries to provide higher level APIs to the hardware on the device.
-On top of all this comes Java API Framework to create apps which can work together with Hardware Abstraction Layer and native libraries to cerate functionality.
-At the highest level we have the apps themselves which are already build on Java. For example: phone, email etc.
+ - At the lowest level Android runs on linux operating system which provides all the drivers, kernels to control the hardware.
+ - On top of that we have hardware abstraction layer to provide convenient access to hardware api.
+ - On top of the hardware abstraction there are C/C++ libraries to provide higher level APIs to the hardware on the device.
+ - On top of all this comes Java API Framework to create apps which can work together with Hardware Abstraction Layer and native libraries to cerate functionality.
+ - At the highest level we have the apps themselves which are already build on Java. For example: phone, email etc.
 
 2. Android components (Explain the use of each)
 
